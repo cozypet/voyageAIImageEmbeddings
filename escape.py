@@ -18,7 +18,7 @@ except Exception as e:
     raise
 
 # Connect to MongoDB
-client = pymongo.MongoClient("mongodb+srv://han:han@escapegame.pypkq.mongodb.net/")
+client = pymongo.MongoClient("your mongodb connection string")
 db = client.dataset
 collection = db.plants
 
